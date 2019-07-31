@@ -1,0 +1,7 @@
+#开发阶段设置不保存缓存
+spring:
+  thymeleaf:
+    cache: false
+
+server:
+  port: 80

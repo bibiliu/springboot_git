@@ -1,0 +1,22 @@
+#\u8BBE\u7F6E\u5BF9\u8F93\u51FA\u7684\u53C2\u6570\u7684\u683C\u5F0F\u5316
+spring.jackson.date-format=yyyy-MM-dd HH:mm:ss
+
+#\u8BBE\u7F6E\u65F6\u5DEE
+spring.jackson.time-zone=GMT+8
+
+#\u8BBE\u7F6E\u5BF9\u8F93\u5165\u7684\u53C2\u6570\u7684\u683C\u5F0F\u5316
+spring.mvc.date-format=yyyy-MM-dd
+
+#\u4FEE\u6539\u9ED8\u8BA4Tomcat\u7AEF\u53E3
+server.port=8888
+
+#\u4FEE\u6539\u9ED8\u8BA4\u8DEF\u7531
+server.servlet.context-path=/
+
+#\u81EA\u5B9A\u4E49\u914D\u7F6E
+#imgServer.path=http://images.qf.com
+#emailServer.path=http://email.qf.com
+
+resource.imageServer=http://www.images.qf.com
+resource.emailServer=http://www.email.qf.com
+

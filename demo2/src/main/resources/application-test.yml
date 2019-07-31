@@ -1,0 +1,8 @@
+server:
+  port: 8804
+  servlet:
+    context-path: /
+resource:
+  imageServer: http://www.qf.test.image.com
+  emailServer: http://www.qf.test.email.com
+

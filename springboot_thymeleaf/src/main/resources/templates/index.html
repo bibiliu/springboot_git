@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    hello springboot+thymeleaf<br>
+   <!-- 欢迎:<span th:text="${username}">测试</span><br/>
+    欢迎:<span th:text="欢迎+${username}">测试</span><br/>
+    欢迎:<span th:text="|欢迎,${username}|">测试</span><br/>-->
+
+    username:<span th:text="${user.username}">姓名</span><br>
+    password:<span th:text="${user.password}">密码</span><br>
+
+    <span th:if="${money < 10}">有钱人</span>
+    <span th:unless="${money < 10}">穷人</span>
+<hr>
+    <input th:value="${#dates.format(time,'yyyy-MM-dd hh:mm:ss')}"/>
+<hr>
+    <ul th:each="user : ${users}">
+        <li th:text="${user.username}">1</li>
+        <li th:text="${user.password}">1</li>
+    </ul>
+
+
+</body>
+</html>
